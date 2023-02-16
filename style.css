@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+  }
+  
+  
+  .image{
+    border-radius:15px 15px 0px 0px;
+  }
+  
+  
+  .follow{
+    height: 10px;
+    width: 56px;
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    color: #6B7082;
+  
+  }
+  
+  .likesnumberdiv{
+    height: 18px;
+    width: 46px;
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #2E3349;
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  
+  .like{
+    height: 10px;
+    width: 29px;
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    color: #6B7082;
+    margin-top: 9px;
+    
+  }
+  
+  
+  
+  .photosnumberdiv{
+    height: 18px;
+    width: 38px;
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #2E3349;
+  
+  }
+  
+  
+  .photo{
+    height: 10px;
+    width: 40px;
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    color: #6B7082;
+    margin-top: 9px;
+  }
+  
+  .bigwrapper{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+  
+  }
+  
+  
+  
+  .followernumberdiv{
+    height: 18px;
+    width: 35px;
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #2E3349;
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  .nextpoto{
+    height: 96px;
+    width: 96px;
+    border-radius: 100%;
+    border: 5px solid #FFFFFF;
+    transform: translate();
+  
+  }
+  
+  
+  
+  
+  
+  body{
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  }
+  
+  .wrapper{
+    height: 374px;
+    width: 350px;
+    border-radius: 15px;
+    background: #FFFFFF;
+    position: relative;
+  
+  }
+  
+  
+  .name{
+    height: 18px;
+    width: 104px;
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #2E3349;
+    ;
+  }
+  
+  
+  .age{
+    color: #6B7082;
+    height: 18px;
+    width: 22px;
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+  
+  }
+  
+  
+  .victornameandnumber{
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      margin-bottom: 24px;
+      transform: translateY(-130%);
+      
+  
+  }
+  
+  .countryname{
+    height: 14px;
+    width: 50px;
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #6B7082;
+     transform: translateY(-220%);
+  }
+  
+  .country{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  
+  .line{
+    height: 1px;
+    width: 350px;
+    background: #E8E9EC;
+  
+  
+  }
+  
+  .followernumberdiv{
+    height: 18px;
+    width: 35px;
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #2E3349
+  }
+  
+  
+  
+  .follow{
+    margin-top: 9px;
+  
+  }
+  
+  .photosdiv{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    transform: translateY(-50%);
+  }
